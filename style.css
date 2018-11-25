@@ -22,7 +22,7 @@ body,html {
   border-radius: .5rem;
   margin: 1rem;
   font-size: 1.5rem;
-  padding: 1rem .5rem;
+  /*padding: 1rem .5rem;*/
   transition: all 0.7s ease;
   width: 10rem;
   text-align: center;
@@ -32,11 +32,13 @@ body,html {
 }
 
 .aKey {
-  border: .4rem solid #0849b2;
+  border: .4rem solid #0049aa;
+  padding: 10px 0px 10px 0px;
 }
 
 .yellowKey {
   border: .4rem solid #e1e814;
+  padding: 5px 0px 5px 0px;
 }
 
 .playing {
@@ -47,5 +49,5 @@ body,html {
 
 kbd {
   display: block;
-  font-size: 4rem;
+  font-size: 50px;
 }

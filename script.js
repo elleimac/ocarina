@@ -17,6 +17,6 @@
   a.forEach(key => key.addEventListener('transitionend', removeTransition));
   window.addEventListener('keydown', playSound);
 
-    const yellow = Array.from(document.querySelectorAll('.yellowKey'));
+  const yellow = Array.from(document.querySelectorAll('.yellowKey'));
   yellow.forEach(key => key.addEventListener('transitionend', removeTransition));
   window.addEventListener('keydown', playSound);
