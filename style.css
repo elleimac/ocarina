@@ -18,13 +18,12 @@ body,html {
   justify-content: center;
 }
 
-.aKey {
-  border: .4rem solid #0849b2;
+.aKey , .yellowKey {
   border-radius: .5rem;
   margin: 1rem;
   font-size: 1.5rem;
   padding: 1rem .5rem;
-  transition: all 1s ease;
+  transition: all 0.7s ease;
   width: 10rem;
   text-align: center;
   color: white;
@@ -32,18 +31,12 @@ body,html {
   text-shadow: 0 0 .5rem black;
 }
 
+.aKey {
+  border: .4rem solid #0849b2;
+}
+
 .yellowKey {
   border: .4rem solid #e1e814;
-  border-radius: .5rem;
-  margin: 1rem;
-  font-size: 1.5rem;
-  padding: 1rem .5rem;
-  transition: all 1s ease;
-  width: 10rem;
-  text-align: center;
-  color: white;
-  background: rgba(0,0,0,0.4);
-  text-shadow: 0 0 .5rem black;
 }
 
 .playing {
